@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4CAB438-CE8A-4A7B-A5BD-53CF3E0BA31A}"
+	ProjectSection(SolutionItems) = preProject
+		snippet_cpp.xml = snippet_cpp.xml
+		snippet_csharp.xml = snippet_csharp.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4489AA5F-6146-4570-8C2B-8D04693D1C6D}
+	EndGlobalSection
+EndGlobal
