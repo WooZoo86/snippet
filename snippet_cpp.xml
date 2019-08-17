@@ -1,2 +1,181 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <!-- document note snippet -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>document note</Title>
+      <Author>woo zoo</Author>
+      <Description>文件注释代码片段</Description>
+      <HelpUrl>https://github.com/WooZoo86/snippet</HelpUrl>
+      <Keywords>
+        <Keyword>document</Keyword>
+        <Keyword>file</Keyword>
+      </Keywords>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Shortcut>dns</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip>function name</ToolTip>
+          <Default>@funcName</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>function purpose</ToolTip>
+          <Default>@purpose</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Who</ID>
+          <ToolTip>creator/updater</ToolTip>
+          <Default>@coder</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>When</ID>
+          <ToolTip>created/updated time</ToolTip>
+          <Default>@$DAY$-$MONTH$-$YEAR $HOUR$:$MINUTE$:$SECOND$</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Why</ID>
+          <ToolTip>reason/purpose</ToolTip>
+          <Default>@reason</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>What</ID>
+          <ToolTip>changes</ToolTip>
+          <Default>@changes</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Contact</ID>
+          <ToolTip>blog/email</ToolTip>
+          <Default>@271005887@qq.com</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+      </Declarations>
+      <Code Language="CPP" Kind="any" Delimiter="$">
+        <![CDATA[///Name:     $Name$
+				///Descripton:      $Description$
+        ///Author:     $Who$ $When$ $Contact$
+        ///Update:      $Who$ $When$ $Why$ $What$ $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- function note snippet-->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>function note</Title>
+      <Author>woo zoo</Author>
+      <Description>函数注释代码片段</Description>
+      <HelpUrl>https://github.com/WooZoo86/snippet</HelpUrl>
+      <Keywords>
+        <Keyword>function</Keyword>
+      </Keywords>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Shortcut>fns</Shortcut>
+    </Header>
+    <Snippet>
+      <References>
+        <Reference></Reference>
+      </References>
+      <Imports>
+        <Import>
+          <Namespace></Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip>function name</ToolTip>
+          <Default>@funcName</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Description</ID>
+          <ToolTip>function purpose</ToolTip>
+          <Default>@purpose</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Parameter</ID>
+          <ToolTip>parameter name</ToolTip>
+          <Default>@paramName</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>ParameterDesc</ID>
+          <ToolTip>parameter description</ToolTip>
+          <Default>@feature</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Return</ID>
+          <ToolTip>return value description</ToolTip>
+          <Default>@feature</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Who</ID>
+          <ToolTip>creator/updater</ToolTip>
+          <Default>@coder</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>When</ID>
+          <ToolTip>created/updated time</ToolTip>
+          <Default>@$DAY$-$MONTH$-$YEAR $HOUR$:$MINUTE$:$SECOND$</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>Why</ID>
+          <ToolTip>reason/purpose</ToolTip>
+          <Default>@reason</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+        <Literal>
+          <ID>What</ID>
+          <ToolTip>changes</ToolTip>
+          <Default>@changes</Default>
+          <Function></Function>
+          <Type></Type>
+        </Literal>
+      </Declarations>
+      <Code Language="CPP" Kind="any" Delimiter="$">
+        <![CDATA[///Name:     $Name$
+				///Descripton:      $Description$
+        ///Parameter:     $Parameter$ $ParameterDesc$
+				///Return:      $Return$
+        ///Create:     $Who$ $When$
+        ///Update:      $Who$ $When$ $Why$ $What$ $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
+
 
